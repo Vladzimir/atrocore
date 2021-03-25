@@ -1,0 +1,55 @@
+{
+    "fields": {
+        "name": "Name",
+        "roles": "Roles",
+        "assignmentPermission": "Assignment Permission",
+        "userPermission": "User Permission",
+        "portalPermission": "Portal Permission",
+        "groupEmailAccountPermission": "Group Email Account Permission",
+        "dataPrivacyPermission": "Data Privacy Permission"
+    },
+    "links": {
+        "users": "Users",
+        "teams": "Teams"
+    },
+    "tooltips": {
+        "assignmentPermission": "Allows to restrict an ability to assign records and post messages to other users.\n\nall - no restriction\n\nteam - can assign and post only to teammates\n\nno - can assign and post only to self",
+        "userPermission": "Allows to restrict an ability for users to view activities, calendar and stream of other users.\n\nall - can view all\n\nteam - can view activities of teammates only\n\nno - can't view",
+        "portalPermission": "Defines an access to portal information, ability to post messages to portal users.",
+        "groupEmailAccountPermission": "Defines an access to group email accounts, an ability to send emails from group SMTP.",
+        "dataPrivacyPermission": "Allows to view and erase personal data."
+    },
+    "labels": {
+    "Access": "Доступ",
+        "Create Role": "Create Role",
+        "Scope Level": "Scope Level",
+        "Field Level": "Field Level"
+    },
+    "options": {
+        "accessList": {
+      "not-set": "не встановлено",
+      "enabled": "увімкнено",
+      "disabled": "вимкнено"
+        },
+        "levelList": {
+      "all": "всі",
+      "team": "команда",
+      "account": "контрагент",
+      "contact": "контакт",
+      "own": "власне",
+      "no": "немає",
+      "yes": "так",
+      "not-set": "не встановлено"
+        }
+    },
+    "actions": {
+    "read": "Читати",
+    "edit": "Змінити",
+    "delete": "Видалити",
+    "stream": "Потік",
+    "create": "Створити"
+    },
+    "messages": {
+    "changesAfterClearCache": "Всі зміни у контролі доступом будуть застосовані після очищення кешу."
+    }
+}
